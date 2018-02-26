@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 搜索框 -->
+    <declare-styleable name="kylin_search_style">
+        <attr name="img_src" format="reference"/><!-- 图片地址 -->
+        <attr name="img_size" format="dimension"/><!-- 图片大小 -->
+        <attr name="img_visibility" format="boolean"/><!-- 图片显示/隐藏 -->
+        <attr name="show_location" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="2"/>
+            <enum name="centre" value="1"/>
+        </attr>
+        <attr name="edt_hint" format="string"/><!-- 提示文字 -->
+        <attr name="edt_size" format="dimension"/><!-- 提示文字大小 -->
+        <attr name="edt_hint_color" format="color"/><!-- 提示文字的颜色 -->
+        <attr name="search_backgroup" format="reference"/><!-- 搜索框背景 -->
+        <attr name="search_padding" format="reference"/><!-- 搜索框背景 -->
+    </declare-styleable>
+</resources>
