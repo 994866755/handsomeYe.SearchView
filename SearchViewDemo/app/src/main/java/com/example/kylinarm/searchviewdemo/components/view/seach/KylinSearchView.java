@@ -21,13 +21,7 @@ import com.example.kylinarm.searchviewdemo.R;
 import com.example.kylinarm.searchviewdemo.components.utils.DimensionUtils;
 
 /**
- * Created by yetao on 2018/2/22.
- *
- * 内容摘要：
- * 系统版本：
- * 版权所有：宝润兴业
- * 修改内容：
- * 修改日期
+ * Created by kylin on 2018/2/22.
  */
 
 public class KylinSearchView extends FrameLayout implements SearchExtendImpl{
