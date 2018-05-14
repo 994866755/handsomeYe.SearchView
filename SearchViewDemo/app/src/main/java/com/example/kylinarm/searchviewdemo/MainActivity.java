@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements OnSearchListener{
 
     @Override
     public void search(String content) {
+        // 测试AS中git提交代码
         Toast.makeText(this,"搜索内容： "+content,Toast.LENGTH_SHORT).show();
     }
 
